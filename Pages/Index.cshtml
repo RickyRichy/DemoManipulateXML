@@ -1,0 +1,64 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XML Data Display</title>
+</head>
+<body>
+    <h1>Warriors Information</h1>
+
+    @if (Model.Root.warriors.warrior != null)
+    {
+        var warrior = Model.Root.warriors.warrior;
+        <h2>Warrior</h2>
+        <p>Money: @warrior.money</p>
+        <p>Bonus: @warrior.bonus</p>
+        <p>Strength: @warrior.strength</p>
+        <p>Stamina: @warrior.stamina</p>
+        <p>Level: @warrior.level</p>
+        <p>Experience: @warrior.experience</p>
+        <p>Power: @warrior.power</p>
+        <h3>Items</h3>
+        @if (warrior.items != null)
+        {
+            foreach (var item in warrior.items.item)
+            {
+                <div>
+                    <h5>Item Name: @item.nameItem</h5>
+                    <p>Equipped: @item.isEquipped</p>
+                    @* <p>Count: @item.count</p> *@
+                    <p>Upgrade Level: @item.upgradeLevel</p>
+                    <p>Delivery Time: @item.deliveryTime</p>
+                    <p>Delivery Upgrade Level: @item.deliveryUpgradeLevel</p>
+                    <p>Acquire Type: @item.acquireType</p>
+
+                    
+                    @if (item.enchantments != null)
+                    {
+                        <h5>Enchantments</h5>
+                        foreach (var perk in item.enchantments.perks)
+                        {
+                            <div>
+                                <p>Perk Name: @perk.namePerk</p>
+                                @if (perk.set != null)
+                                {
+                                    <p>Set Aspect: @perk.set.aspect</p>
+                                }
+                            </div>
+                        }
+                    }
+                </div>
+            }
+        }
+    }
+    else
+    {
+        <p>No data available.</p>
+    }
+</body>
+</html>
