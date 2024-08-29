@@ -1,0 +1,21 @@
+body[b-bbsxgdx7u8] {
+}
+
+table[b-bbsxgdx7u8] {
+    width: 100%;
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+
+th[b-bbsxgdx7u8], td[b-bbsxgdx7u8] {
+    /*width: 50%;*/
+    padding: 8px;
+    text-align: center; /* Canh trái nội dung */
+    border: 1px solid #ddd; /* Đường viền xung quanh các ô */
+}
+
+th[b-bbsxgdx7u8] {
+    background-color: #f2f2f2; /* Màu nền cho các tiêu đề */
+}
+

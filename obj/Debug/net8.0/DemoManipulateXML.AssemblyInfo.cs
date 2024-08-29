@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoManipulateXML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dc3164727077c59b1c74311e44a194f3f4d63fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoManipulateXML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoManipulateXML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

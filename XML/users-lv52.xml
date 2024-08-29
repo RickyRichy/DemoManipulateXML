@@ -19,7 +19,7 @@
         <Item Name="Head" Equipped="0" Count="1" UpgradeLevel="0" DeliveryTime="0" DeliveryUpgradeLevel="-1" AcquireType="Item" />
         <Item Name="Fists" Equipped="0" Count="1" UpgradeLevel="0" DeliveryTime="0" DeliveryUpgradeLevel="-1" AcquireType="Item" />
         <Item Name="NoRanged" Equipped="0" Count="1" UpgradeLevel="0" DeliveryTime="0" DeliveryUpgradeLevel="-1" AcquireType="Item" />
-        <Item Name="NoMagic" Equipped="0" Count="1" UpgradeLevel="0" DeliveryTime="0" DeliveryUpgradeLevel="-1" AcquireType="Item" />
+        <Item Name="NoMagic" Equipped="0" Count="1"  UpgradeLevel="0" DeliveryTime="0" DeliveryUpgradeLevel="-1" AcquireType="Item" />
         <Item Name="WEAPON_KNIVES" Equipped="0" Count="1" UpgradeLevel="100" DeliveryTime="-1" DeliveryUpgradeLevel="-1" AcquireType="Item" />
         <Item Name="HELM_LIGHT" Equipped="0" Count="1" UpgradeLevel="200" DeliveryTime="-1" DeliveryUpgradeLevel="-1" AcquireType="Item" />
         <Item Name="ARMOR_ROBE" Equipped="0" Count="1" UpgradeLevel="200" DeliveryTime="-1" DeliveryUpgradeLevel="-1" AcquireType="Item" />
@@ -32,6 +32,12 @@
             <Perk Name="PERK_ITEM_SPECIAL_DAMAGE_ABSORPTION_HEAD_HELM">
               <Set Aspect="90" />
             </Perk>
+			  <Perk Name="PERK_ITEM_SPECIAL_DAMAGE_ABSORPTION_HEAD_HELM">
+				  <Set Aspect="90" />
+			  </Perk>
+			  <Perk Name="PERK_ITEM_SPECIAL_DAMAGE_ABSORPTION_HEAD_HELM">
+				  <Set Aspect="90" />
+			  </Perk>
           </Enchantments>
         </Item>
         <Item Name="WEAPON_STEEL_BATONS" Equipped="0" Count="1" UpgradeLevel="400" DeliveryTime="-1" DeliveryUpgradeLevel="-1" AcquireType="Item" />

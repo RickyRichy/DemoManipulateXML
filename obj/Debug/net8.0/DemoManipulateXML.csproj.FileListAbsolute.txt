@@ -28,3 +28,5 @@ D:\CODE\DemoManipulateXML\obj\Debug\net8.0\refint\DemoManipulateXML.dll
 D:\CODE\DemoManipulateXML\obj\Debug\net8.0\DemoManipulateXML.pdb
 D:\CODE\DemoManipulateXML\obj\Debug\net8.0\DemoManipulateXML.genruntimeconfig.cache
 D:\CODE\DemoManipulateXML\obj\Debug\net8.0\ref\DemoManipulateXML.dll
+D:\CODE\DemoManipulateXML\obj\Debug\net8.0\DemoManipulateXML.sourcelink.json
+D:\CODE\DemoManipulateXML\obj\Debug\net8.0\scopedcss\Pages\Index.cshtml.rz.scp.css
